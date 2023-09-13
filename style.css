@@ -1,1 +1,128 @@
+.TV {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .TV .div {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid;
+    border-color: #001f3f;
+    background: linear-gradient(180deg, rgb(221, 36, 118) 0%, rgb(255, 81, 47) 100%);
+    width: 1280px;
+    height: 720px;
+    position: relative;
+  }
+  
+  .TV .github-mark {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 490px;
+    left: 615px;
+    object-fit: cover;
+  }
+  
+  .TV .text-wrapper {
+    position: absolute;
+    top: 443px;
+    left: 602px;
+    font-family: "Mouse Memoirs-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .TV .text-wrapper-2 {
+    position: absolute;
+    top: 11px;
+    left: 488px;
+    font-family: "MuseoModerno-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .TV .discord {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 490px;
+    left: 680px;
+    object-fit: cover;
+    button {
+        font-family: inherit;
+        font-size: 18px;
+        background: linear-gradient(to bottom, #4f4dd9 0%,#2b60aa 100%);
+        color: white;
+        padding: 0.8em 1.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 25px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s;
+      }
+      
+      button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+      }
+      
+      button:active {
+        transform: scale(0.95);
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      
+      button span {
+        display: block;
+        margin-left: 0.4em;
+        transition: all 0.3s;
+      }
+      
+      button svg {
+        width: 18px;
+        height: 18px;
+        fill: white;
+        transition: all 0.3s;
+      }
+      
+      button .svg-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin-right: 0.5em;
+        transition: all 0.3s;
+      }
+      
+      button:hover .svg-wrapper {
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+      
+      button:hover svg {
+        transform: rotate(360deg);
+      }
+      button:positioned {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 490px;
+        left: 680px;
+            }
 
+  }
+  
