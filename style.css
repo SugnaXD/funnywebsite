@@ -1,174 +1,117 @@
 .TV {
-    background-color: rgba(255, 255, 255, 1);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .TV .div {
-    background-color: rgba(255, 255, 255, 1);
-    border: 1px solid;
-    border-color: #001f3f;
-    background: linear-gradient(180deg, rgb(221, 36, 118) 0%, rgb(255, 81, 47) 100%);
-    width: 1280px;
-    height: 720px;
-    position: relative;
-  }
-  
-  .TV .github-mark {
-    .Btn {
-      border: none;
-      border-radius: 50%;
-      width: 50px;
-      height: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition-duration: .4s;
-      cursor: pointer;
-      position: relative;
-      background-color: rgb(31, 31, 31);
-      overflow: hidden;
-    }
-    
-    .svgIcon {
-      transition-duration: .3s;
-    }
-    
-    .svgIcon path {
-      fill: white;
-    }
-    
-    .text {
-      position: absolute;
-      color: rgb(255, 255, 255);
-      width: 120px;
-      font-weight: 600;
-      opacity: 0;
-      transition-duration: .4s;
-    }
-    
-    .Btn:hover {
-      width: 110px;
-      transition-duration: .4s;
-      border-radius: 30px;
-    }
-    
-    .Btn:hover .text {
-      opacity: 1;
-      transition-duration: .4s;
-    }
-    
-    .Btn:hover .svgIcon {
-      opacity: 0;
-      transition-duration: .3s;
-    }
-  }
-  
-  .TV .text-wrapper {
-    position: absolute;
-    top: 443px;
-    left: 602px;
-    font-family: "Mouse Memoirs-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 40px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .TV .text-wrapper-2 {
-    position: absolute;
-    top: 11px;
-    left: 488px;
-    font-family: "MuseoModerno-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .TV .discord {
-    .button {
-      border: none;
-      border-radius: 50%;
-      width: 50px;
-      height: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.3s;
-      cursor: pointer;
-      position: relative;
-      background: linear-gradient(to bottom, #4f4dd9 0%,#2b60aa 100%)
-      
-    }
-    
-    .svgIcon {
-      transition-duration: .3s;
-    }
-    
-    .svgIcon path {
-      fill: white;
-    }
-    
-    .text {
-      position: absolute;
-      color: rgb(255, 255, 255);
-      width: 120px;
-      font-weight: 600;
-      opacity: 0;
-      transition-duration: .4s;
-    }
-    
-    .button:hover {
-      width: 110px;
-      transition-duration: .3s;
-      border-radius: 30px;
-    }
-    
-    .button:hover .text {
-      opacity: 1;
-      transition-duration: .3s;
-    }
-    
-    .button:hover .svgIcon {
-      opacity: 0;
-      transition-duration: .2s;
-    }
-  }
-  
-  .TV .text-wrapper {
-    position: absolute;
-    top: 443px;
-    left: 602px;
-    font-family: "Mouse Memoirs-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 40px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .TV .text-wrapper-2 {
-    position: absolute;
-    top: 11px;
-    left: 488px;
-    font-family: "MuseoModerno-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
 
+.TV .div {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid;
+  border-color: #001f3f;
+  background: linear-gradient(180deg, rgb(221, 36, 118) 0%, rgb(255, 81, 47) 100%);
+  width: 1280px;
+  height: 720px;
+  position: relative;
+}
 
-  
+.TV .overlap {
+  position: absolute;
+  width: 197px;
+  height: 122px;
+  top: 434px;
+  left: 535px;
+}
+
+.TV .overlap-group {
+  position: absolute;
+  width: 143px;
+  height: 122px;
+  top: 0;
+  left: 0;
+}
+
+.TV .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 68px;
+  font-family: "Mouse Memoirs-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.TV .ellipse {
+  left: 78px;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 54px;
+  background-color: #000000;
+  border-radius: 27.5px;
+}
+
+.TV .github-mark-white {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 56px;
+  left: 80px;
+  object-fit: cover;
+}
+
+.TV .ellipse-2 {
+  left: 12px;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 54px;
+  background-color: #000000;
+  border-radius: 27.5px;
+}
+
+.TV .youtube-logo-png {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 42px;
+  left: 0;
+  object-fit: cover;
+}
+
+.TV .discord-wrapper {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 54px;
+  left: 142px;
+  background-color: #000000;
+  border-radius: 27.5px;
+}
+
+.TV .discord {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 2px;
+  left: 3px;
+  object-fit: cover;
+}
+
+.TV .text-wrapper-2 {
+  position: absolute;
+  top: 11px;
+  left: 488px;
+  font-family: "MuseoModerno-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
