@@ -18,16 +18,16 @@
 
 .TV .overlap {
   position: absolute;
-  width: 197px;
-  height: 122px;
+  width: 148px;
+  height: 127px;
   top: 434px;
-  left: 535px;
+  left: 560px;
 }
 
 .TV .overlap-group {
   position: absolute;
-  width: 143px;
-  height: 122px;
+  width: 118px;
+  height: 127px;
   top: 0;
   left: 0;
 }
@@ -35,7 +35,7 @@
 .TV .text-wrapper {
   position: absolute;
   top: 0;
-  left: 68px;
+  left: 43px;
   font-family: "Mouse Memoirs-Regular", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -47,11 +47,30 @@
 }
 
 .TV .ellipse {
-  left: 78px;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 55px;
+  left: 17px;
+  background-color: #000000;
+  border-radius: 27.5px;
+}
+
+.TV .youtube-logo-png {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 37px;
+  left: 0;
+  object-fit: cover;
+}
+
+.TV .github-mark-white-wrapper {
   position: absolute;
   width: 55px;
   height: 55px;
   top: 54px;
+  left: 93px;
   background-color: #000000;
   border-radius: 27.5px;
 }
@@ -60,46 +79,8 @@
   position: absolute;
   width: 50px;
   height: 50px;
-  top: 56px;
-  left: 80px;
-  object-fit: cover;
-}
-
-.TV .ellipse-2 {
-  left: 12px;
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  top: 54px;
-  background-color: #000000;
-  border-radius: 27.5px;
-}
-
-.TV .youtube-logo-png {
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  top: 42px;
-  left: 0;
-  object-fit: cover;
-}
-
-.TV .discord-wrapper {
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  top: 54px;
-  left: 142px;
-  background-color: #000000;
-  border-radius: 27.5px;
-}
-
-.TV .discord {
-  position: absolute;
-  width: 50px;
-  height: 50px;
   top: 2px;
-  left: 3px;
+  left: 2px;
   object-fit: cover;
 }
 
@@ -114,4 +95,42 @@
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.TV .discord-wrapper {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 488px;
+  left: 723px;
+  background-color: #000000;
+  border-radius: 27.5px;
+}
+
+.TV .discord {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 2px;
+  left: 3px;
+  object-fit: cover;
+}
+
+.TV .twitch-icon-purple-wrapper {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 488px;
+  left: 501px;
+  background-color: #000000;
+  border-radius: 27.5px;
+}
+
+.TV .twitch-icon-purple {
+  position: absolute;
+  width: 33px;
+  height: 40px;
+  top: 8px;
+  left: 11px;
+  object-fit: cover;
 }
