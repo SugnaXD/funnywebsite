@@ -1,128 +1,119 @@
-.desktop {
-  background-color: rgba(255, 255, 255, 1);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
+.86_3 { 
+	overflow:hidden;
 }
-
-.desktop .div {
-  background-color: rgba(255, 255, 255, 1);
-  background: linear-gradient(180deg, rgba(255, 81, 47, 0.7) 1.56%, rgba(221, 36, 118, 0.2) 100%);
-  width: 1440px;
-  height: 1024px;
-  position: relative;
+.e86_3 { 
+	background-image:linear-gradient(0deg, rgba(255, 81.00000277161598, 47.0000009983778, 1) 1.5625%,rgba(221.00000202655792, 36.00000165402889, 118.00000056624413, 1) 100%) ;
+	width:1440px;
+	height:1024px;
+	position:absolute;
 }
-
-.desktop .text-wrapper {
-  position: absolute;
-  width: 200px;
-  top: 511px;
-  left: 620px;
-  font-family: "Mouse Memoirs-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 40px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+.e86_4 { 
+	color:rgba(255, 255, 255, 1);
+	width:200px;
+	height:45px;
+	position:absolute;
+	left:620px;
+	top:512px;
+	font-family:Mouse Memoirs;
+	text-align:center;
+	font-size:40px;
+	letter-spacing:0;
 }
-
-.desktop .text-wrapper-2 {
-  position: absolute;
-  top: 31px;
-  left: 568px;
-  font-family: "MuseoModerno-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 48px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
+.e86_5 { 
+	color:rgba(0, 0, 0, 1);
+	width:303px;
+	height:76px;
+	position:absolute;
+	left:568px;
+	top:32px;
+	font-family:MuseoModerno;
+	text-align:center;
+	font-size:48px;
+	letter-spacing:0;
 }
-
-.desktop .overlap {
-  top: 585px;
-  left: 803px;
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  background-color: #000000;
-  border-radius: 27.5px;
+.e86_6 { 
+	border-radius:500px;
+	background-color:rgba(0, 0, 0, 1);
+	width:55px;
+	height:55px;
+	position:absolute;
+	left:803px;
+	top:585px;
 }
-
-.desktop .discord {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 2px;
-  left: 3px;
-  object-fit: cover;
+.e86_7 { 
+	width:50px;
+	height:50px;
+	position:absolute;
+	left:806px;
+	top:587px;
+	background-image:url(images/discord_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
 }
-
-.desktop .overlap-group {
-  top: 585px;
-  left: 733px;
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  background-color: #000000;
-  border-radius: 27.5px;
+.e86_8 { 
+	border-radius:500px;
+	background-color:rgba(0, 0, 0, 1);
+	width:55px;
+	height:55px;
+	position:absolute;
+	left:733px;
+	top:585px;
 }
-
-.desktop .github-mark-white {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 2px;
-  left: 2px;
-  object-fit: cover;
+.e86_9 { 
+	width:50px;
+	height:50px;
+	position:absolute;
+	left:735.5px;
+	top:586.5px;
+	background-image:url(images/github_mark_white_80x80_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
 }
-
-.desktop .youtube-logo-png-wrapper {
-  top: 586px;
-  left: 657px;
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  background-color: #000000;
-  border-radius: 27.5px;
+.e86_10 { 
+	border-radius:500px;
+	background-color:rgba(0, 0, 0, 1);
+	width:55px;
+	height:55px;
+	position:absolute;
+	left:657px;
+	top:586px;
 }
-
-.desktop .youtube-logo-png {
-  position: absolute;
-  width: 41px;
-  height: 30px;
-  top: 11px;
-  left: 8px;
-  object-fit: cover;
+.e86_11 { 
+	border-radius:500px;
+	background-color:rgba(0, 0, 0, 1);
+	width:55px;
+	height:55px;
+	position:absolute;
+	left:581px;
+	top:585px;
 }
-
-.desktop .twitch-icon-purple-wrapper {
-  top: 585px;
-  left: 581px;
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  background-color: #000000;
-  border-radius: 27.5px;
+.e86_12 { 
+	width:33.333335876464844px;
+	height:40px;
+	position:absolute;
+	left:592px;
+	top:593px;
+	background-image:url(images/twitch_icon_purple_transparent_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
 }
-
-.desktop .twitch-icon-purple {
-  position: absolute;
-  width: 33px;
-  height: 40px;
-  top: 8px;
-  left: 11px;
-  object-fit: cover;
+.e86_13 { 
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:620px;
+	top:151px;
+	background-image:url(images/kronk_450x450_trans_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
 }
-
-.desktop .kronk-trans {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  top: 151px;
-  left: 620px;
-  object-fit: cover;
+.e86_14 { 
+	width:40.74074172973633px;
+	height:30px;
+	position:absolute;
+	left:665px;
+	top:597px;
+	background-image:url(images/youtube_logo_png_2069_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
 }
