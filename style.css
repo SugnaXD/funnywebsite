@@ -16,75 +16,7 @@
   position: relative;
 }
 
-.TV .overlap {
-  position: absolute;
-  width: 148px;
-  height: 127px;
-  top: 434px;
-  left: 560px;
-}
-
-.TV .overlap-group {
-  position: absolute;
-  width: 118px;
-  height: 127px;
-  top: 0;
-  left: 0;
-}
-
 .TV .text-wrapper {
-  position: absolute;
-  top: 0;
-  left: 43px;
-  font-family: "Mouse Memoirs-Regular", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 40px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.TV .ellipse {
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  top: 55px;
-  left: 17px;
-  background-color: #000000;
-  border-radius: 27.5px;
-}
-
-.TV .youtube-logo-png {
-  position: absolute;
-  width: 90px;
-  height: 90px;
-  top: 37px;
-  left: 0;
-  object-fit: cover;
-}
-
-.TV .github-mark-white-wrapper {
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  top: 54px;
-  left: 93px;
-  background-color: #000000;
-  border-radius: 27.5px;
-}
-
-.TV .github-mark-white {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 2px;
-  left: 2px;
-  object-fit: cover;
-}
-
-.TV .text-wrapper-2 {
   position: absolute;
   top: 11px;
   left: 488px;
@@ -97,40 +29,15 @@
   line-height: normal;
 }
 
-.TV .discord-wrapper {
+.TV .p {
   position: absolute;
-  width: 55px;
-  height: 55px;
-  top: 488px;
-  left: 723px;
-  background-color: #000000;
-  border-radius: 27.5px;
-}
-
-.TV .discord {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 2px;
-  left: 3px;
-  object-fit: cover;
-}
-
-.TV .twitch-icon-purple-wrapper {
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  top: 488px;
-  left: 501px;
-  background-color: #000000;
-  border-radius: 27.5px;
-}
-
-.TV .twitch-icon-purple {
-  position: absolute;
-  width: 33px;
-  height: 40px;
-  top: 8px;
-  left: 11px;
-  object-fit: cover;
+  top: 469px;
+  left: 266px;
+  font-family: "Mouse Memoirs-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
 }
