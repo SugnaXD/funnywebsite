@@ -17,7 +17,7 @@
 .desktop .text-wrapper {
   position: absolute;
   width: 200px;
-  top: 393px;
+  top: 511px;
   left: 620px;
   font-family: "Mouse Memoirs-Regular", Helvetica;
   font-weight: 400;
@@ -40,6 +40,82 @@
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.desktop .overlap {
+  top: 585px;
+  left: 803px;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background-color: #000000;
+  border-radius: 27.5px;
+}
+
+.desktop .discord {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 2px;
+  left: 3px;
+  object-fit: cover;
+}
+
+.desktop .overlap-group {
+  top: 585px;
+  left: 733px;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background-color: #000000;
+  border-radius: 27.5px;
+}
+
+.desktop .github-mark-white {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 2px;
+  left: 2px;
+  object-fit: cover;
+}
+
+.desktop .youtube-logo-png-wrapper {
+  top: 586px;
+  left: 657px;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background-color: #000000;
+  border-radius: 27.5px;
+}
+
+.desktop .youtube-logo-png {
+  position: absolute;
+  width: 41px;
+  height: 30px;
+  top: 11px;
+  left: 8px;
+  object-fit: cover;
+}
+
+.desktop .twitch-icon-purple-wrapper {
+  top: 585px;
+  left: 581px;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background-color: #000000;
+  border-radius: 27.5px;
+}
+
+.desktop .twitch-icon-purple {
+  position: absolute;
+  width: 33px;
+  height: 40px;
+  top: 8px;
+  left: 11px;
+  object-fit: cover;
 }
 
 .desktop .kronk-trans {
