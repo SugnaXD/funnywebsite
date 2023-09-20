@@ -3,6 +3,23 @@
 <body>
   <img src="./Imgs/This-website-isnt-finished.png" alt="IM STILL MAKEING THIS AHHHHH">  
 </body>
+<head>
+  <title> Sugna WTF???</title>
+</head>
+<meta id="testViewport" name="viewport" content="width=1024">
+<script>
+var sw = screen.width;
+var sh = screen.height;
+if ( window.matchMedia("(orientation: landscape)").matches ) {
+  var fw = sh;
+} else {
+  var fw = sw;
+}
+if (fw < 768) {
+    var mvp = document.getElementById("testViewport");
+    mvp.setAttribute("content","width=device-width,initial-scale=1");
+}
+</script>
 
 
 
