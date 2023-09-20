@@ -16,3 +16,8 @@ html, body {
   padding: 20px 0px 0px 50px;
   box-sizing: border-box;
 }
+body {
+  overflow: hidden;
+  display: flex;
+
+}
